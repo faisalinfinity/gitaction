@@ -32,10 +32,11 @@ function App() {
         <Button isActive onClick={() => navigate("/css")}>
           CSS
         </Button>
-        <Button isActive onClick={() => navigate("/javascript")}>
-          JavaScript
+        <Button  isActive onClick={() => navigate("/javascript")}>
+          JavaScript 
         </Button>
       </HStack>
+
       <AllRoutes />
     </>
   );
