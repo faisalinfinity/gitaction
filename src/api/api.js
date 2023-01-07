@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const Api = async(type,page) => {
+const Api = async(type="all",page) => {
     let data;
  if(type==="all"){
     let res =await axios
